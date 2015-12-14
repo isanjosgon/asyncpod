@@ -2,11 +2,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'async_Example', :exclusive => true do
-  pod "async", :path => "../"
+  pod "async_utility", :path => "../"
 end
 
 target 'async_Tests', :exclusive => true do
-  pod "async", :path => "../"
+  pod "async_utility", :path => "../"
 
-  
+
 end

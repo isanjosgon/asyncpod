@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## async
+## async_utility
 
 Copyright (c) 2015 Isra San Jose Gonzalez <isanjosgon@gmail.com>
 

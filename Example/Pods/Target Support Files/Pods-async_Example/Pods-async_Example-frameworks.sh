@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-async_Example/async.framework"
+  install_framework "Pods-async_Example/async_utility.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-async_Example/async.framework"
+  install_framework "Pods-async_Example/async_utility.framework"
 fi
