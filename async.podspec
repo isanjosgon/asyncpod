@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             =  "async"
+  s.name             =  "async_utility"
   s.version          =  "1.0.0"
   s.summary          =  "Utility framework which provides asynchronous working to help processing background tasks."
 
