@@ -1,40 +1,22 @@
-#
-# Be sure to run `pod lib lint async.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = "async"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of async."
+s.name             = "async"
+s.version          = "1.0.0"
+s.summary          = "Async is a utility framework which provides asynchronous working to help processing background tasks without blocking the UI."
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+s.description      = "Async is a utility framework which provides asynchronous working to help processing background tasks without blocking the UI. It is inspired by Javascript module https://github.com/caolan/async."
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/async"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Isra San Jose Gonzalez" => "isanjosgon@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/async.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = "https://github.com/isanjosgon/async"
+s.license          = 'MIT'
+s.author           = { "Isra San Jose Gonzalez" => "isanjosgon@gmail.com" }
+s.source           = { :git => "https://github.com/isanjosgon/async.git", :tag => s.version.to_s }
+s.social_media_url = 'https://twitter.com/isanjosgon'
 
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
+s.platform     = :ios, '8.0'
+s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'async' => ['Pod/Assets/*.png']
-  }
+s.source_files = 'Pod/Classes/**/*'
+s.resource_bundles = {
+'async_pod' => ['Pod/Assets/*.png']
+}
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
