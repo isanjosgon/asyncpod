@@ -64,7 +64,7 @@
 		9E8FB6ED814E7EA448304C2F /* Pods_async_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_async_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F0B81B68D89C7E16418478 /* Pods-async_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-async_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-async_Example/Pods-async_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4ACA68ABF19E04A4128F436 /* Pods-async_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-async_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-async_Tests/Pods-async_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F10E4061FE1D57B2A9550505 /* async.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = async.podspec; path = ../async.podspec; sourceTree = "<group>"; };
+		F10E4061FE1D57B2A9550505 /* async_utility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = async_utility.podspec; path = ../async_utility.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +175,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				F10E4061FE1D57B2A9550505 /* async.podspec */,
+				F10E4061FE1D57B2A9550505 /* async_utility.podspec */,
 				5280426AA00788DC0CEB86A8 /* README.md */,
 				205D1F4E9940D8C5A7E7C08E /* LICENSE */,
 			);
