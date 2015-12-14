@@ -24,18 +24,14 @@ NSLog(@"err : %@ , res : %@",err,res);
 });
 ```
 
-### How to use ###
+### Installation with CocoaPods ###
 
-Ready in 1 minute. Just following the next steps:
-* add the framework to your project (drag and drop).
-* go to your target >> General tab
-* add the async.framework to your 'Embedded Binaries'
-* import the framework #import <async/async.h>
-* run and done!
+Async is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-Final Xcode configuration
-
-![image](http://i67.tinypic.com/yeb04.png)
+```sh
+pod "async"
+```
 
 ### Control Flow ###
 
